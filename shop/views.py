@@ -20,14 +20,7 @@ class CategoryViewSet(ModelViewSet):
 
 
 
-# def search_result(request):
-#     item = request.GET.get('item')
-#     print(item)
-#     products = Product.objects.filter(name__icontains=item) #ищу по логике in, то есть все, что содержит
-#     context ={
-#         'products': products, 
-#     }
-#     return render(request, 'search_result.html', context=context)
+
 
 
 
